@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datenschutzerklärung</title>
+    <title>Datenschutzerklärung – Reitstunden</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -49,69 +49,72 @@
 </head>
 <body>
     <h1>Datenschutzerklärung</h1>
-    
+
     <h2 id="praeambel">Präambel</h2>
-    <p>Mit der folgenden Datenschutzerklärung möchte ich Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als "Daten" bezeichnet) ich zu welchen Zwecken und in welchem Umfang im Rahmen der Bereitstellung meiner Applikation verarbeiten.</p>
-    
+    <p>Mit der folgenden Datenschutzerklärung möchte ich Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten ich zu welchen Zwecken und in welchem Umfang im Rahmen der Bereitstellung meiner Applikation verarbeite.</p>
+
     <p>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
-    
+
     <h2 id="verantwortlicher">Verantwortlicher</h2>
     <div class="kontakt">
-        <p>Diese App wird privat entwickelt und betrieben. Für Fragen zum Datenschutz kontaktieren Sie bitte den Entwickler über den App Store oder per E-Mail: <a href="mailto:tksoft@email.de">tksoft@email.de</a></p>
+        <p>Diese App wird privat entwickelt und betrieben. Für Fragen zum Datenschutz kontaktieren Sie bitte den Entwickler über den App Store, den Google Play Store oder per E-Mail: <a href="mailto:tksoft@email.de">tksoft@email.de</a></p>
     </div>
-    
+
     <h2 id="verarbeitungen">Übersicht der Verarbeitungen</h2>
-    <p>Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.</p>
-    
+    <p>Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen.</p>
+
     <h3>Welche Daten werden verarbeitet?</h3>
     <p>Die App verarbeitet folgende Daten:</p>
     <ul>
-        <li>Ihre Schulzugangsdaten (Schulname, Benutzername, Passwort)</li>
-        <li>Kalenderdaten und Aufgaben aus dem Schulportal Hessen (LANiS)-Portal</li>
-        <li>Gerätedaten für die Widget-Darstellung</li>
+        <li>Reiter-Namen (frei eingegeben)</li>
+        <li>Reitkarten mit Kaufdatum und Stundenterminen</li>
+        <li>Reittage (konfigurierte Wochentage je Reiter)</li>
+        <li>Bankverbindungsdaten (Empfänger, IBAN, Betrag, Verwendungszweck) für Zahlungsvorlagen</li>
+        <li>App-Einstellungen (zuletzt ausgewählter Reiter, aktive Bankvorlage)</li>
     </ul>
-    
+
     <h3>Wie werden Ihre Daten verwendet?</h3>
     <p>Ihre Daten werden ausschließlich verwendet, um:</p>
     <ul>
-        <li>Sich beim Schulportal Hessen (LANiS)-Portal anzumelden</li>
-        <li>Ihre Aufgaben und Termine abzurufen</li>
-        <li>Diese in der App und im Widget anzuzeigen</li>
+        <li>Reitkarten und Termine in der App anzuzeigen und zu verwalten</li>
+        <li>SEPA-QR-Codes für Überweisungen lokal zu erzeugen (kein Netzwerkzugriff)</li>
+        <li>Backups lokal zu exportieren und zu importieren</li>
     </ul>
-    
+
     <h3>Wo werden Ihre Daten gespeichert?</h3>
-    <p>Alle Daten werden ausschließlich lokal auf Ihrem Gerät gespeichert:</p>
+    <p><strong>iOS:</strong> Alle Daten werden lokal auf Ihrem Gerät in der App-Datenbank und in den App-Einstellungen gespeichert. Es findet keine iCloud-Synchronisation statt.</p>
+    <p><strong>Android:</strong> Alle Daten werden lokal in einer App-Datenbank und in den App-Einstellungen gespeichert. Das Betriebssystem-eigene Auto-Backup von Android kann diese Daten verschlüsselt in Ihrem Google-Drive-Konto sichern; dies ist ausdrücklich auf App-Datenbank und Einstellungen eingeschränkt und liegt unter der Kontrolle Ihres Google-Kontos.</p>
+    <p>In beiden Fällen gilt:</p>
     <ul>
-        <li>Zugangsdaten in der iOS Keychain (verschlüsselt)</li>
-        <li>Kalenderdaten im App-Speicher</li>
-        <li>Keine Übertragung an Dritte</li>
-        <li>Keine Cloud-Speicherung</li>
+        <li>Keine Übertragung an Server des Entwicklers</li>
+        <li>Keine Cloud-Dienste des Entwicklers</li>
+        <li>Kein Tracking, keine Analytics</li>
+        <li>Keine Weitergabe an Dritte</li>
     </ul>
-    
-    <h3>Weitergabe an Dritte</h3>
-    <p>Ihre Daten werden nicht an Dritte weitergegeben. Die Kommunikation erfolgt ausschließlich zwischen Ihrem Gerät und dem Schulportal Hessen (LANiS)-Portal Ihrer Schule.</p>
-    
+
+    <h3>Bankverbindungsdaten</h3>
+    <p>IBAN und Empfängerdaten werden unverschlüsselt lokal auf Ihrem Gerät gespeichert. Die App sendet keine Bankdaten an externe Server. SEPA-QR-Codes werden ausschließlich lokal generiert. Die Daten verlassen Ihr Gerät nur, wenn Sie selbst ein Backup exportieren und teilen oder (auf Android) über das System-Backup Ihres Google-Kontos.</p>
+
+    <h3>Export und Backup</h3>
+    <p>Wenn Sie ein Backup exportieren und die erzeugte Datei weitergeben (z. B. per AirDrop, E-Mail oder Dateifreigabe), enthält diese Datei Ihre Reiter-Namen und Bankverbindungsdaten im Klartext. Die Verbreitung dieser Datei liegt ausschließlich in Ihrer Verantwortung.</p>
+
     <h3>Ihre Rechte</h3>
     <p>Sie haben jederzeit das Recht:</p>
     <ul>
-        <li>Ihre Daten zu löschen (durch Abmelden in der App)</li>
-        <li>Die App zu deinstallieren (entfernt alle lokalen Daten)</li>
+        <li>Ihre Daten zu löschen (über das Menü in der App oder durch Deinstallation)</li>
+        <li>Die App zu deinstallieren (entfernt alle lokalen Daten; auf Android ggf. zusätzlich das System-Backup in Google Drive löschen)</li>
         <li>Auskunft über Ihre gespeicherten Daten zu erhalten</li>
     </ul>
-    
-    <h3>Sicherheit</h3>
-    <p>Die App nutzt die iOS Keychain für die sichere Speicherung Ihrer Zugangsdaten. Die Verbindung zum Schulportal Hessen (LANiS)-Portal erfolgt verschlüsselt über HTTPS.</p>
-    
+
     <h2 id="rechtsgrundlagen">Maßgebliche Rechtsgrundlagen</h2>
-    
-    <p><strong>Maßgebliche Rechtsgrundlagen nach der DSGVO:</strong> Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene Daten verarbeiten. Bitte nehmen Sie zur Kenntnis, dass neben den Regelungen der DSGVO nationale Datenschutzvorgaben in Ihrem bzw. unserem Wohn- oder Sitzland gelten können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen wir Ihnen diese in der Datenschutzerklärung mit.</p>
-    
-    <p><strong>Nationale Datenschutzregelungen in Deutschland:</strong> Zusätzlich zu den Datenschutzregelungen der DSGVO gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, zur Verarbeitung besonderer Kategorien personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall einschließlich Profiling. Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen.</p>
-    
-    
+
+    <p><strong>Maßgebliche Rechtsgrundlagen nach der DSGVO:</strong> Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis personenbezogene Daten verarbeitet werden. Bitte nehmen Sie zur Kenntnis, dass neben den Regelungen der DSGVO nationale Datenschutzvorgaben in Ihrem bzw. unserem Wohn- oder Sitzland gelten können.</p>
+
+    <p><strong>Nationale Datenschutzregelungen in Deutschland:</strong> Zusätzlich zu den Datenschutzregelungen der DSGVO gelten nationale Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere das Bundesdatenschutzgesetz (BDSG). Das BDSG enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, zur Verarbeitung besonderer Kategorien personenbezogener Daten sowie zur Übermittlung. Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung gelangen.</p>
+
     <h2 id="aenderungen">Änderungen</h2>
     <p>Diese Datenschutzerklärung kann bei Bedarf aktualisiert werden. Wesentliche Änderungen werden in den App-Updates kommuniziert.</p>
-    
+
     <p class="stand">Stand: Mai 2026</p>
 
 </body>
